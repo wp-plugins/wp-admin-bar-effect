@@ -1,0 +1,8 @@
+.wrap-content { margin-top: 20px; width: 750px; text-align: right; }
+.wrap-content .ui-tabs-nav a, { color: #21759B; }
+.wrap-content span { font-size: 0.8em; }
+.wabe-padding { padding-right: 20px; }
+table.wabe-table-form { width: 100% }
+table.wabe-table-form th { font-weight: 300; }
+table.wabe-table-form input { text-align: right; }
+.wabe-border { text-align: left; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; border: 1px solid #aaa; margin: 15px 0; padding: 15px; }
