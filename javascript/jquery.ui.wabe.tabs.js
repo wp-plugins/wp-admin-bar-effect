@@ -1,0 +1,1 @@
+jQuery(function(){jQuery('#tabs').tabs({fx:{opacity:'toggle',height:'toggle',duration:'slow'}});});
