@@ -4,7 +4,7 @@ Donate link:
 Tags: Admin bar, effect
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 1.0.1
+Stable tag: 1.0
 License: GPL/MIT
 
 Add effect to admin bar for show & hide with mouse hover
@@ -26,8 +26,7 @@ Aparte puede controlar la velocidad, sensibilidad para activar el efecto.
 
 
 == Changelog ==
-1.0.1
-change file readme.txt
+
 1.0
 initial release
 requiere 3.3
