@@ -1,17 +1,20 @@
 === WP Admin Bar Effect ===
 Contributors: 23r9i0 
-Donate link:no
+Donate link:
 Tags: Admin bar, effect
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPL/MIT
 
 Add effect to admin bar for show & hide with mouse hover
 
 == Description ==
 
-long descrition
+In Spanish:
+Oculta o muestra la barra del escritorio con un sencillo efecto y añade un enlace a su sitio en el panel lateral(opcional).
+Aparte puede controlar la velocidad, sensibilidad para activar el efecto.
+
 
 == Installation ==
 
@@ -21,13 +24,14 @@ long descrition
 
 == Frequently Asked Questions ==
 
-dsergio.com
+
 == Changelog ==
+1.0.1
+change file readme.txt
 1.0
 initial release
 requiere 3.3
 
 == Upgrade Notice ==
-no
+
 == Screenshots ==
-No Sorry!!
