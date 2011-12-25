@@ -12,8 +12,12 @@ Add effect to admin bar for show & hide with mouse hover
 == Description ==
 
 In Spanish:
-Oculta o muestra la barra del escritorio con un sencillo efecto y añade un enlace a su sitio en el panel lateral(opcional).
+Oculta o muestra la barra del escritorio con un sencillo efecto y a&ntilde;ade un enlace a su sitio en el panel lateral(opcional).
 Aparte puede controlar la velocidad, sensibilidad para activar el efecto.
+
+In English:
+Hide or show the desktop bar with a single effect and add a link to site inside sidebar (optional).
+In addition you can control the speed, sensitivity to active the effect.
 
 
 == Installation ==
@@ -26,10 +30,8 @@ Aparte puede controlar la velocidad, sensibilidad para activar el efecto.
 
 
 == Changelog ==
-
 1.0
 initial release
-requiere 3.3
 
 == Upgrade Notice ==
 
