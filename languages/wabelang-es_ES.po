@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wabe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-12-24 13:42+0100\n"
-"PO-Revision-Date: 2011-12-24 13:43+0100\n"
+"POT-Creation-Date: 2011-12-27 02:02+0100\n"
+"PO-Revision-Date: 2011-12-27 02:02+0100\n"
 "Last-Translator: 23r9i0 <23r9i0@gmail.com>\n"
 "Language-Team: 23r9i0\n"
 "MIME-Version: 1.0\n"
@@ -112,75 +112,75 @@ msgstr "%1$s Desintalar WP Admin Bar Effect (wabe) %2$s"
 msgid "Info"
 msgstr "Info"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:224
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:223
 msgid "Active link to site:"
 msgstr "Activar enlace del sitio:"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:230
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:229
 msgid "Default: on <small>(Checked)</small>"
 msgstr "Por defecto: on <small>(Seleccionado)</small>"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:235
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:234
 msgid "Change the Speed:"
 msgstr "Cambiar la velocidad:"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:241
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:240
 msgid "Default: 3000"
 msgstr "Por defecto: 3000"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:246
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:245
 msgid "Change the Sensitivity:"
 msgstr "Cambiar la sensibilidad:"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:252
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:251
 msgid "Default: 4"
 msgstr "Por defecto: 4"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:257
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:256
 msgid "Change the Interval:"
 msgstr "Cambiar el intervalo:"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:263
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:262
 msgid "Default: 50"
 msgstr "Por defecto: 50"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:268
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:267
 msgid "Change the Timeout:"
 msgstr "Cambiar el tiempo de espera:"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:274
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:273
 msgid "Default: 200"
 msgstr "Por defecto: 200"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:281
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:280
 msgid "Delete options within the database to disable the plugin in the plugins page"
 msgstr "Elimina las opciones guardadas en la base de datos para desactivar el plugin desde la página de plugins"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:282
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:281
 msgid "Default: off <small>(UnChecked)</small>"
 msgstr "Por defecto: off <small>(Deseleccionado)</small>"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:287
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:286
 msgid "You need some help active help tab."
 msgstr "Si necesitas mas ayuda activa la pestaña de la ayuda."
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:288
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:287
 msgid "Sorry for bugs in translations."
 msgstr "Perdón por los errores en las traducciones."
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:289
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:288
 msgid "To help in the translation send an email to 23r9i0<span class=\"hidden\">no-bot</span>@gmail.com"
 msgstr "Para ayudar en la traduccion puede mandar un email a 23r9i0<span class=\"hidden\">no-bot</span>@gmail.com"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:294
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:293
 msgid "Save Changes"
 msgstr "Guardar cambios"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:298
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:297
 msgid "Restore"
 msgstr "Restablecer"
 
-#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:304
+#: D:\xampp\htdocs\ds\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:303
 msgid "Are you sure you want to restore WP Admin Bar Effect (wabe) to default settings?"
 msgstr "¿Esta seguro de que desea restaurar WP Admin Bar Effect (wabe) a los ajustes predeterminados?"
 

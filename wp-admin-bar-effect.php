@@ -217,7 +217,6 @@ class wabe {
         	<li><a href="#info"><?php _e('Info', 'wabelang'); ?></a></li>
     	</ul>
     	<div id="options">
-        <?php //echo $_COOKIE["wabe_hidden"]; ?>
     		<table class="wabe-table-form"><tbody>
             <tr>
             <th scope="row">
