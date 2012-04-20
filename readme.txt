@@ -11,13 +11,13 @@ Add effect to admin bar for show & hide with mouse hover
 
 == Description ==
 
+Hide or show the desktop bar with a single effect and add a link to site inside sidebar (optional).
+In addition you can control the speed, sensitivity to active the effect.
+
 In Spanish:
 Oculta o muestra la barra del escritorio con un sencillo efecto y a&ntilde;ade un enlace a su sitio en el panel lateral(opcional).
 Aparte puede controlar la velocidad, sensibilidad para activar el efecto.
 
-In English:
-Hide or show the desktop bar with a single effect and add a link to site inside sidebar (optional).
-In addition you can control the speed, sensitivity to active the effect.
 
 
 == Installation ==
@@ -31,11 +31,11 @@ In addition you can control the speed, sensitivity to active the effect.
 = Currently there is no FAQ =
 
 == Changelog ==
-2.0
-- Add custom icon with media uploader
-- Use full API Wordpress and delete code unnecessary
-1.0
-initial release
+= 2.0 =
+* - Add custom icon with media uploader
+* - Use full API Wordpress and delete code unnecessary
+= 1.0 =
+* initial release
 
 == Upgrade Notice ==
 
