@@ -28,7 +28,7 @@ In addition you can control the speed, sensitivity to active the effect.
 
 == Frequently Asked Questions ==
 
-Currently there is no FAQ
+= Currently there is no FAQ =
 
 == Changelog ==
 2.0
