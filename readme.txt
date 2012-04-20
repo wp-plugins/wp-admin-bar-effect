@@ -41,4 +41,4 @@ initial release
 
 == Screenshots ==
 
-screenshot
+1. screenshot
