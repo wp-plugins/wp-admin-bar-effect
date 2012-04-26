@@ -29,7 +29,7 @@ Author URI: http://dsergio.com/
 */
 if( !class_exists( 'wabe' ) ) : 
 class wabe {
-	private $wabe_version = '2.0';
+	private $wabe_version = '2.1';
 	private $wabe_options;
 	private $wabe_options_defaults = array( 'actlink' => '1', 'icolink' => '', 'speed' => '3000', 'sensitivity' => '4', 'interval' => '50', 'timeout' => '200' );
 	public function wabe(){
