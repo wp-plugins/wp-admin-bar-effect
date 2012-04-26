@@ -4,7 +4,7 @@ Donate link:
 Tags: Admin, Admin bar, Effect, Customize menu, menu, Toolbar
 Requires at least: 3.3
 Tested up to: 3.3
-Stable tag: 2.0
+Stable tag: 2.1
 License: GPL/MIT
 
 Add effect to admin bar for show & hide with mouse hover
@@ -31,9 +31,11 @@ Aparte puede controlar la velocidad, sensibilidad para activar el efecto.
 = Currently there is no FAQ =
 
 == Changelog ==
+= 2.1 =
+ - fix media uploader
 = 2.0 =
-* - Add custom icon with media uploader
-* - Use full API Wordpress and delete code unnecessary
+ - Add custom icon with media uploader
+ - Use full API Wordpress and delete code unnecessary
 = 1.0 =
 * initial release
 

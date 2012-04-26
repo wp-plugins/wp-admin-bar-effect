@@ -50,11 +50,13 @@
 		tb_show('', 'media-upload.php?post_id='+post_id+'&amp;type=image&amp;TB_iframe=true');
 		return false;
 	});
-	window.send_to_editor = function(html) {
+	$('#wabe-img-button').bind('click', function(){
+		window.send_to_editor = function(html) {
 		imgurl = $('img',html).attr('src');
 		$('#wabe-ico').val(imgurl);
 		tb_remove();
-	}
+	};
+	});
 	function check_input(){
 		if(!$('#wabe-actlink').is(':checked')){
 			$('label[for^="wabe-ico"]').parent().parent().hide();
