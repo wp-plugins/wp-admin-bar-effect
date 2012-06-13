@@ -1,14 +1,14 @@
 <?php
 /**
  * @package WP Admin Bar Effect (wabe)
- * @version 2.1.1
+ * @version 2.1.2
  */
 /*
 Plugin Name: WP Admin Bar Effect (wabe)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-effect/
 Description: Add effect slideDown to desktop top bar 
 Author: Sergio P.A. ( 23r9i0 )
-Version: 2.1.1
+Version: 2.1.2
 Author URI: http://dsergio.com/
 */
 /*  Copyright 2011  Sergio Prieto Alvarez  (email : info@dsergio.com)
@@ -29,7 +29,7 @@ Author URI: http://dsergio.com/
 */
 if( !class_exists( 'wabe' ) ) : 
 class wabe {
-	private $wabe_version = '2.1.1';
+	private $wabe_version = '2.1.2';
 	private $wabe_options;
 	private $wabe_options_defaults = array( 'actlink' => '1', 'icolink' => '', 'speed' => '3000', 'sensitivity' => '4', 'interval' => '50', 'timeout' => '200' );
 	public function wabe(){
@@ -202,7 +202,7 @@ class wabe {
 		$wabe_values = get_option( 'wabe-options' );
 ?>
 	<!-- Inserted by plugin WP Admin Bar Effect (wabe) /*****************************************************/	Añadido por el plugin WP Admin Bar Effect (wabe) -->
-	<style type="text/css">#wpadminbar{top:-24px}#wpwrap{top:-28px}div.quicklinks{display:none}body.admin-bar #wpcontent,body.admin-bar #adminmenu{padding-top:4px}#wabe .wp-menu-image {background:url(<?php echo $this->select_icolink(); ?> ) no-repeat}</style>
+	<style type="text/css">html.wp-toolbar{padding-top:0}#wpadminbar{top:-24px}div.quicklinks{display:none}body.admin-bar #wpcontent,body.admin-bar #adminmenu{padding-top:4px}#wabe .wp-menu-image {background:url(<?php echo $this->select_icolink(); ?> ) no-repeat}</style>
 	<script>jQuery(document).ready(function($){$( 'body' ).wp_admin_bar_effect({wabe_speed:<?php echo $wabe_values['speed'];?>,wabe_sensitivity:<?php echo $wabe_values['sensitivity'];?>,wabe_interval:<?php echo $wabe_values['interval'];?>,wabe_timeout:<?php echo $wabe_values['timeout'];?>});});</script> 
 	<!-- Inserted by plugin WP Admin Bar Effect (wabe) /*****************************************************/	Añadido por el plugin WP Admin Bar Effect (wabe) -->
 <?php
