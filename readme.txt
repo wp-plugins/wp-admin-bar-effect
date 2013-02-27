@@ -1,4 +1,4 @@
-=== WP Admin Bar Effect ===
+Ôªø=== WP Admin Bar Effect ===
 Contributors: 23r9i0 
 Donate link:
 Tags: Admin, Admin bar, Effect, Customize menu, menu, Toolbar
@@ -17,7 +17,7 @@ In addition you can control the speed, sensitivity to active the effect.
 
 -----------------
 
-Oculta o muestra la barra del escritorio con un sencillo efecto y a&ntilde;ade un enlace a su sitio en el panel lateral(opcional).
+Oculta o muestra la barra del escritorio con un sencillo efecto y a√±ade un enlace a su sitio en el panel lateral(opcional).
 Aparte puede controlar la velocidad, sensibilidad para activar el efecto.
 
 
@@ -31,8 +31,8 @@ Aparte puede controlar la velocidad, sensibilidad para activar el efecto.
 -------------------
 
 1. Suba la carpeta 'wp-admin-bar-effect' dentro del directorio '/wp-content/plugins/'
-2. Activar el plugin a travÈs del men˙ 'Plugins' en WordPress
-3. Si desea personalizar un poco la apariencia de wabe, vaya a la p·gina de opciones dentro de Opciones generales en el panel de administraciÛn de WordPress
+2. Activar el plugin a trav√©s del men√∫ 'Plugins' en WordPress
+3. Si desea personalizar un poco la apariencia de wabe, vaya a la p√°gina de opciones dentro de Opciones generales en el panel de administraci√≥n de WordPress
 
 == Frequently Asked Questions ==
 
