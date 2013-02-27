@@ -2,159 +2,222 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wabe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-20 18:39+0100\n"
-"PO-Revision-Date: 2012-04-20 18:39+0100\n"
+"POT-Creation-Date: 2013-02-27 19:24+0100\n"
+"PO-Revision-Date: 2013-02-27 19:24+0100\n"
 "Last-Translator: 23r9i0 <23r9i0@gmail.com>\n"
 "Language-Team: 23r9i0\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-Language: Spanish\n"
-"X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.5\n"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:61
-msgid "This plugin requires WordPress 3.3 or greater."
-msgstr "El plugin necesita WordPress 3.3 o posterior."
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:60
+msgid "This plugin requires WordPress 3.5 or greater."
+msgstr "El plugin necesita WordPress 3.5 o posterior."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:68
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:73
 msgid "Active link:"
 msgstr "Activar enlace:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:69
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:74
 msgid "Custom Icon to link:"
 msgstr "Icono personalizado para el enlace:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:70
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:75
 msgid "Speed:"
 msgstr "Velocidad:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:71
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:76
+msgid "<strong>Advanced Settings</strong>"
+msgstr "<strong>Opciones avanzadas</strong>"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:77
 msgid "Sensitivity:"
 msgstr "Sensibilidad:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:72
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:78
 msgid "Interval:"
 msgstr "Intervalo:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:73
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:79
 msgid "Timeout:"
 msgstr "Tiempo de espera:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:78
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:83
 msgid "Default options restored."
 msgstr "Opciones predeterminadas restauradas."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:83
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:88
 msgid "Default icon restored."
 msgstr "Icono predeterminado restaurado."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:98
-msgid "Update image"
-msgstr "Subir imagen"
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:108
+msgid "Update icon"
+msgstr "Subir icono"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:99
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:247
-msgid "Restore"
-msgstr "Restablecer"
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:110
+msgid "Restore icon"
+msgstr "Restablecer icono"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:101
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:112
 msgid "Current: "
 msgstr "Actual:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:109
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:118
 msgid "Default: 3000"
 msgstr "Por defecto: 3000"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:116
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:124
 msgid "Default: 4"
 msgstr "Por defecto: 4"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:123
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:130
 msgid "Default: 50"
 msgstr "Por defecto: 50"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:130
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:136
 msgid "Default: 200"
 msgstr "Por defecto: 200"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:135
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:141
 msgid "Options"
 msgstr "Opciones"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:151
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:160
 msgid "General options"
 msgstr "Opciones generales"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:152
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:161
 msgid "Advanced options"
 msgstr "Opciones avanzadas"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:156
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:165
 msgid "Active link"
 msgstr "Activar enlace"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:157
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:166
 msgid "Decide if it shows a link in the sidebar to your site."
 msgstr "Decide si se muestra en la barra lateral un enlace hacia su sitio."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:158
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:167
 msgid "Custom icon to link"
 msgstr "Icono personalizado para el enlace"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:159
-msgid "Add custom icon on the link, is stored in the folder uploads if not using from url. "
-msgstr "Añade icono personalizado en el enlace. se guarda en la carpeta uploads sino usa desde url."
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:168
+msgid ""
+"Add custom icon on the link, is stored in the folder uploads if not using "
+"from url. "
+msgstr ""
+"Añade icono personalizado en el enlace. se guarda en la carpeta uploads sino "
+"usa desde url."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:160
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:169
 msgid "The image can not be greater than 30 by 32 pixels"
 msgstr "La imagen no puede exceder de 30 por 32 pixeles"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:161
-msgid "If you want to completely remove the image should delete from the library."
-msgstr "Para eliminar completamente la imagen tiene que hacerlo desde la librería multimedia."
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:162
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:170
 msgid "Speed"
 msgstr "Velocidad"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:163
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:171
 msgid "Speed ​​is the option to change the speed of effect once the hover."
-msgstr "La velocidad, es la opción para cambiar la velocidad del efecto una vez que se activa al pasar el ratón."
+msgstr ""
+"La velocidad, es la opción para cambiar la velocidad del efecto una vez que "
+"se activa al pasar el ratón."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:168
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:176
 msgid "Sensitivity"
 msgstr "Sensibilidad"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:169
-msgid "If the mouse travels fewer than this number of pixels between polling intervals, then the \"over\" function will be called. With the minimum sensitivity threshold of 1, the mouse must not move between polling intervals. With higher sensitivity thresholds you are more likely to receive a false positive."
-msgstr "Si el ratón viaja menos de este número de píxeles entre los intervalos de sondeo, el \"sobre\" la función se llama. Con el umbral de sensibilidad mínima de 1, el ratón no se debe mover entre los intervalos de votación. Con los umbrales de sensibilidad más alto tienen más probabilidades de recibir un falso positivo"
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:177
+msgid ""
+"If the mouse travels fewer than this number of pixels between polling "
+"intervals, then the \"over\" function will be called. With the minimum "
+"sensitivity threshold of 1, the mouse must not move between polling "
+"intervals. With higher sensitivity thresholds you are more likely to receive "
+"a false positive."
+msgstr ""
+"Si el ratón viaja menos de este número de píxeles entre los intervalos de "
+"sondeo, el \"sobre\" la función se llama. Con el umbral de sensibilidad "
+"mínima de 1, el ratón no se debe mover entre los intervalos de votación. Con "
+"los umbrales de sensibilidad más alto tienen más probabilidades de recibir "
+"un falso positivo"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:170
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:178
 msgid "Interval"
 msgstr "Intervalo"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:171
-msgid "The number of milliseconds hoverIntent waits between reading/comparing mouse coordinates. When the user's mouse first enters the element its coordinates are recorded. The soonest the \"over\" function can be called is after a single polling interval. Setting the polling interval higher will increase the delay before the first possible \"over\" call, but also increases the time to the next point of comparison."
-msgstr "El número de milisegundos que hoverIntent espera entre la lectura/comparación de las coordenadas del ratón. Cuando el ratón del usuario entra por primera vez el elemento de sus coordenadas se registran. Lo más pronto que puede ser el \"sobre\" la función se llama después de un intervalo de sondeo única. Ajuste del intervalo de sondeo más alta aumentará la demora antes de la primera posible \"sobre\" llamar, pero también aumenta el tiempo hasta el siguiente punto de comparación intervalo."
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:179
+msgid ""
+"The number of milliseconds hoverIntent waits between reading/comparing mouse "
+"coordinates. When the user's mouse first enters the element its coordinates "
+"are recorded. The soonest the \"over\" function can be called is after a "
+"single polling interval. Setting the polling interval higher will increase "
+"the delay before the first possible \"over\" call, but also increases the "
+"time to the next point of comparison."
+msgstr ""
+"El número de milisegundos que hoverIntent espera entre la lectura/"
+"comparación de las coordenadas del ratón. Cuando el ratón del usuario entra "
+"por primera vez el elemento de sus coordenadas se registran. Lo más pronto "
+"que puede ser el \"sobre\" la función se llama después de un intervalo de "
+"sondeo única. Ajuste del intervalo de sondeo más alta aumentará la demora "
+"antes de la primera posible \"sobre\" llamar, pero también aumenta el tiempo "
+"hasta el siguiente punto de comparación intervalo."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:172
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:180
 msgid "Timeout"
 msgstr "Tiempo de espera"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:173
-msgid "A simple delay, in milliseconds, before the \"out\" function is called. If the user mouses back over the element before the timeout has expired the \"out\" function will not be called (nor will the \"over\" function be called). This is primarily to protect against sloppy/human mousing trajectories that temporarily (and unintentionally) take the user off of the target element... giving them time to return."
-msgstr "Un simple retraso, en milisegundos, antes de que el \"fuera\" la función se llama. Si el usuario pasa el ratón por encima del elemento antes de que el tiempo de espera ha expirado el \"fuera\" la función no será llamada (ni el \"sobre\" la función se llama). Esto se debe principalmente a la protección contra las trayectorias pasar el ratón por descuidado/humanos que temporalmente (y no) llevan al usuario fuera del elemento de destino ...  Dándoles tiempo para volver."
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:181
+msgid ""
+"A simple delay, in milliseconds, before the \"out\" function is called. If "
+"the user mouses back over the element before the timeout has expired the "
+"\"out\" function will not be called (nor will the \"over\" function be "
+"called). This is primarily to protect against sloppy/human mousing "
+"trajectories that temporarily (and unintentionally) take the user off of the "
+"target element... giving them time to return."
+msgstr ""
+"Un simple retraso, en milisegundos, antes de que el \"fuera\" la función se "
+"llama. Si el usuario pasa el ratón por encima del elemento antes de que el "
+"tiempo de espera ha expirado el \"fuera\" la función no será llamada (ni el "
+"\"sobre\" la función se llama). Esto se debe principalmente a la protección "
+"contra las trayectorias pasar el ratón por descuidado/humanos que "
+"temporalmente (y no) llevan al usuario fuera del elemento de destino ...  "
+"Dándoles tiempo para volver."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:241
-msgid "WP Admin Bar Effect (wabe) version:"
-msgstr "WP Admin Bar Effect (wabe) versión:"
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:192
+msgid "Upload or Choose Your Icon File"
+msgstr "Subir o seleccionar su archivo de icono"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:253
-msgid "Are you sure you want to restore WP Admin Bar Effect (wabe) to default settings?"
-msgstr "¿Esta seguro de que desea restaurar WP Admin Bar Effect (wabe) a los ajustes predeterminados?"
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:193
+msgid "Insert Icon"
+msgstr "Insertar icono"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:225
+#, php-format
+msgid "WP Admin Bar Effect (wabe) Version: %s"
+msgstr "WP Admin Bar Effect (wabe) Versión: %s"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:232
+msgid "Restore"
+msgstr "Restablecer"
+
+#~ msgid ""
+#~ "If you want to completely remove the image should delete from the library."
+#~ msgstr ""
+#~ "Para eliminar completamente la imagen tiene que hacerlo desde la librería "
+#~ "multimedia."
+
+#~ msgid ""
+#~ "Are you sure you want to restore WP Admin Bar Effect (wabe) to default "
+#~ "settings?"
+#~ msgstr ""
+#~ "¿Esta seguro de que desea restaurar WP Admin Bar Effect (wabe) a los "
+#~ "ajustes predeterminados?"
 
 #~ msgid "More explanation of options in the help tab"
 #~ msgstr "Mas explicacion de las opciones en la pestaña de ayuda"
