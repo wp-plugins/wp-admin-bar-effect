@@ -1,14 +1,14 @@
 <?php
 /**
  * @package WP Admin Bar Effect (wabe)
- * @version 2.2
+ * @version 2.2.1
  */
 /*
 Plugin Name: WP Admin Bar Effect (wabe)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-effect/
 Description: Add effect slideDown to desktop top bar 
 Author: Sergio P.A. ( 23r9i0 )
-Version: 2.2
+Version: 2.2.1
 Author URI: http://dsergio.com/
 */
 /*  Copyright 2011-2013  Sergio Prieto Alvarez  (email : info@dsergio.com)
@@ -31,7 +31,7 @@ Author URI: http://dsergio.com/
 if( !class_exists( 'wabe' ) ) : 
 class wabe {
 	private 
-		$wabe_version = '2.2',
+		$wabe_version = '2.2.1',
 		$wabe_options,
 		$wabe_options_defaults = array(
 			'actlink'		=> 'on',
@@ -86,16 +86,16 @@ class wabe {
 			$output = $output;
 		} elseif( isset( $_POST['reset-img'] ) ){
 			add_settings_error( 'wabe-error-img', 'restore_img_default', __( 'Default icon restored.', 'wabelang' ), 'updated fade' );
+			if($output['icolink'] != '')
+				$this->remove_image_iconlink();
 			$output['icolink'] = '';
-			$this->remove_image_iconlink();
-			
 		}
 		return $output;
 	}
 	public function remove_image_iconlink(){
 		global $wpdb;
 		$prefix = $wpdb->prefix;
-		$id = $wpdb->get_col( $wpdb->prepare( "SELECT ID FROM " . $prefix . "posts" . " WHERE guid='" . $this->wabe_values['icolink'] . "';" ) );
+		$id = $wpdb->get_col( $wpdb->prepare( "SELECT ID FROM $wpdb->posts WHERE guid='%s'", $this->wabe_values['icolink'] ) );
 		wp_delete_attachment( $id[0], true );
 	}
 	public function setting_act_link(){
