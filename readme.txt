@@ -4,7 +4,7 @@ Donate link:
 Tags: Admin, Admin bar, Effect, Customize menu, menu, Toolbar
 Requires at least: 3.5
 Tested up to: 3.5
-Stable tag: 2.2.1
+Stable tag: 2.3
 License: GPL/MIT
 
 Add effect to admin bar for show & hide with mouse hover
@@ -31,6 +31,8 @@ Aparte puede controlar la velocidad, sensibilidad para activar el efecto.
 3. Si desea personalizar un poco la apariencia de wabe, vaya a la página de opciones dentro de Opciones generales en el panel de administración de WordPress
 
 == Changelog ==
+= 2.3 =
+ - redesign options and adjust
 = 2.2.1 =
  - fix error wpdb and undefined index after reset icon
 = 2.2 =

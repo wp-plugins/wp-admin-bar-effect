@@ -1,17 +1,16 @@
 jQuery(document).ready(function($){
-	
-		var 
+	var 
 		wab = $('#wpadminbar'),
 		wab_sub = $('div.quicklinks'),
-		wab_sub_sub = $('body.admin-bar #wpcontent, body.admin-bar #adminmenu'),
+		wab_sub_sub = $('body.admin-bar'),
 		wabe_speed, wabe_sensitivity, wabe_interval, wabe_timeout = '',
 		wabe_media_frame;
 	
 	function check_input(){
-		if(!$('#wabe-actlink').is(':checked')){
-			$('label[for^="wabe-ico"]').parent().parent().hide();
+		if($('#r-disable').is(':checked')){
+			$('label[for^="wabe-icon"], label[for^="wabe-target-link"]').parent().parent().hide();
 		} else {
-			$('label[for^="wabe-ico"]').parent().parent().show();
+			$('label[for^="wabe-icon"], label[for^="wabe-target-link"]').parent().parent().show();
 		}
 	};
 	
@@ -28,16 +27,16 @@ jQuery(document).ready(function($){
 		});
 		
 		function wabe_stop(){
-			wab.stop().animate({top: '-24px'}, wabe_speed, function(){
+			wab.stop().animate({'height': '4px'}, wabe_speed, function(){
 				wab_sub.hide();
 			});
-			wab_sub_sub.stop().animate({paddingTop: '4px'}, wabe_speed);
+			wab_sub_sub.stop().animate({'margin-top': '-24px'}, wabe_speed);
 		};
 		
 		function wabe_start(){
 			wab_sub.show();
-			wab.stop().animate({top: '0'}, wabe_speed);
-			wab_sub_sub.stop().animate({paddingTop: '28px'}, wabe_speed);
+			wab.stop().animate({'height': '28px'}, wabe_speed);
+			wab_sub_sub.stop().animate({'margin-top': '0'}, wabe_speed);
 		};
 		
 		function wabe_start_stop(){
@@ -56,12 +55,10 @@ jQuery(document).ready(function($){
 		wabe_interval: 50,
 		wabe_timeout: 200	
 	};
-	
-	$('html.wp-toolbar').css('padding-top','0');
-	wab.css('top','-24px');
-	wab_sub.hide();
-	wab_sub_sub.css('padding-top', '4px');
+
+	if(wabe.target_link === '1'){
 	$('#wabe a').attr('target', '_blank');
+	}
 	$('html, body').wp_admin_bar_effect({
 		wabe_speed: wabe.speed,
 		wabe_sensitivity: wabe.sensitivity,
@@ -69,7 +66,7 @@ jQuery(document).ready(function($){
 		wabe_timeout: wabe.timeout
 	});
 	check_input();
-	$('#wabe-actlink').click(function(){
+	$('input.wabe-checked').click(function(){
 		check_input();
 	});
 	$(document.body).on('click', '#submit-img', function(e){
@@ -93,7 +90,7 @@ jQuery(document).ready(function($){
 		wabe_media_frame.on('select', function(){
 			var
 			media_attachment = wabe_media_frame.state().get('selection').first().toJSON();
-			$('#wabe-ico').val(media_attachment.url);
+			$('#wabe-icon').val(media_attachment.url);
 		});
 		wabe_media_frame.open();
 	});
