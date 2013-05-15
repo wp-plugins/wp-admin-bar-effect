@@ -1,14 +1,14 @@
 <?php
 /**
  * @package WP Admin Bar Effect (wabe)
- * @version 2.3
+ * @version 2.3.1
  */
 /*
 Plugin Name: WP Admin Bar Effect (wabe)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-effect/
 Description: Add effect slideDown to desktop top bar 
 Author: Sergio P.A. ( 23r9i0 )
-Version: 2.3
+Version: 2.3.1
 Author URI: http://dsergio.com/
 Copyright 2011-2013  Sergio Prieto Alvarez  (email : info@dsergio.com)
 */
