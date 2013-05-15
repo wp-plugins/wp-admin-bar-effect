@@ -16,7 +16,7 @@ Copyright 2011-2013  Sergio Prieto Alvarez  (email : info@dsergio.com)
 if( !class_exists( 'WP_ADMIN_BAR_EFFECT' ) ) : 
 class WP_ADMIN_BAR_EFFECT {
 	private 
-		$wabe_version = '2.3',
+		$wabe_version = '2.3.1',
 		$wabe_options,
 		$wabe_options_defaults = array(
 			'wabe_active_link'		=> '2',
@@ -43,8 +43,8 @@ class WP_ADMIN_BAR_EFFECT {
 		if( isset( $this->wabe_options['icolink'] ) ){
 			foreach( $this->wabe_options as $option => $value ){
 				foreach( $this->wabe_options_defaults as $doption => $dvalue ){
-					if( $option == $doption ){
-						$this->wabe_options_defaults[$option] = $this->wabe_options[$option];
+					if( $option == substr($doption, 5 ) ){
+						$this->wabe_options_defaults[$doption] = $this->wabe_options[$option];
 					} else {
 						if( !isset( $this->wabe_options['actlink'] ) )
 							$this->wabe_options_defaults['wabe_active_link'] = '1';		
