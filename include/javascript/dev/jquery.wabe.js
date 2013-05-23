@@ -2,7 +2,7 @@ jQuery(document).ready(function($){
 	var 
 		wab = $('#wpadminbar'),
 		wab_sub = $('div.quicklinks'),
-		wab_sub_sub = $('body.admin-bar'),
+		wab_sub_sub = $('#wpwrap'),
 		wabe_speed, wabe_sensitivity, wabe_interval, wabe_timeout = '',
 		wabe_media_frame;
 	
@@ -30,13 +30,13 @@ jQuery(document).ready(function($){
 			wab.stop().animate({'height': '4px'}, wabe_speed, function(){
 				wab_sub.hide();
 			});
-			wab_sub_sub.stop().animate({'margin-top': '-24px'}, wabe_speed);
+			wab_sub_sub.stop().animate({'margin-top': '-24px', 'padding-bottom': '24px'}, wabe_speed);
 		};
 		
 		function wabe_start(){
 			wab_sub.show();
 			wab.stop().animate({'height': '28px'}, wabe_speed);
-			wab_sub_sub.stop().animate({'margin-top': '0'}, wabe_speed);
+			wab_sub_sub.stop().animate({'margin-top': '0', 'padding-bottom': '0'}, wabe_speed);
 		};
 		
 		function wabe_start_stop(){

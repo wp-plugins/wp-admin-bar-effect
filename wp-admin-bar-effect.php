@@ -1,14 +1,14 @@
 <?php
 /**
  * @package WP Admin Bar Effect (wabe)
- * @version 2.3.1
+ * @version 2.3.2
  */
 /*
 Plugin Name: WP Admin Bar Effect (wabe)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-effect/
 Description: Add effect slideDown to desktop top bar 
 Author: Sergio P.A. ( 23r9i0 )
-Version: 2.3.1
+Version: 2.3.2
 Author URI: http://dsergio.com/
 Copyright 2011-2013  Sergio Prieto Alvarez  (email : info@dsergio.com)
 */
@@ -16,7 +16,7 @@ Copyright 2011-2013  Sergio Prieto Alvarez  (email : info@dsergio.com)
 if( !class_exists( 'WP_ADMIN_BAR_EFFECT' ) ) : 
 class WP_ADMIN_BAR_EFFECT {
 	private 
-		$wabe_version = '2.3.1',
+		$wabe_version = '2.3.2',
 		$wabe_options,
 		$wabe_options_defaults = array(
 			'wabe_active_link'		=> '2',
@@ -43,7 +43,7 @@ class WP_ADMIN_BAR_EFFECT {
 		if( isset( $this->wabe_options['icolink'] ) ){
 			foreach( $this->wabe_options as $option => $value ){
 				foreach( $this->wabe_options_defaults as $doption => $dvalue ){
-					if( $option == substr($doption, 5 ) ){
+					if( $option == substr( $doption, 5 ) ){
 						$this->wabe_options_defaults[$doption] = $this->wabe_options[$option];
 					} else {
 						if( !isset( $this->wabe_options['actlink'] ) )
@@ -217,7 +217,7 @@ class WP_ADMIN_BAR_EFFECT {
 ?>
 	<style type="text/css">
 		#wabe div.wp-menu-image { background: url(<?php echo $this->select_wabe_icon_link(); ?>) no-repeat center center;}
-		body.wp-admin.js {margin-top:-24px}
+		body.wp-admin.js #wpwrap {margin-top:-24px; padding-bottom:24px;}
 		body.js div.quicklinks { display:none}
 		body.js #wpadminbar { height: 4px}
 	</style>
