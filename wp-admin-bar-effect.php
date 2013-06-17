@@ -1,22 +1,33 @@
 <?php
-/**
- * @package WP Admin Bar Effect (wabe)
- * @version 2.3.2
- */
 /*
 Plugin Name: WP Admin Bar Effect (wabe)
 Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-effect/
 Description: Add effect slideDown to desktop top bar 
 Author: Sergio P.A. ( 23r9i0 )
-Version: 2.3.2
+Version: 2.4
 Author URI: http://dsergio.com/
-Copyright 2011-2013  Sergio Prieto Alvarez  (email : info@dsergio.com)
+*/
+/*  Copyright 2013  Sergio Prieto Alvarez  ( email : info@dsergio.com )
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    ( at your option ) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General License for more details.
+
+    You should have received a copy of the GNU General License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 if( !class_exists( 'WP_ADMIN_BAR_EFFECT' ) ) : 
 class WP_ADMIN_BAR_EFFECT {
 	private 
-		$wabe_version = '2.3.2',
+		$wabe_version = '2.4',
 		$wabe_options,
 		$wabe_options_defaults = array(
 			'wabe_active_link'		=> '2',
