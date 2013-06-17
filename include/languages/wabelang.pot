@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wabe 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-14 10:25+0100\n"
+"PO-Revision-Date: 2013-05-14 10:25+0100\n"
+"Last-Translator: 23r9i0 <23r9i0@gmail.com>\n"
+"Language-Team: 23ri90 <23r9i0@gmail.com>\n"
+"Language: en_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\wp\\wp-content\\plugins\\wp-admin-"
+"bar-effect\n"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:81
+msgid "This plugin requires WordPress 3.5 or greater."
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:87
+msgid "Options"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:95
+msgid "Active link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:96
+msgid "Define target link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:97
+msgid "Custom Icon to link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:98
+msgid "Speed:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:99
+msgid "<strong>Advanced Settings</strong>"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:100
+msgid "Sensitivity:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:101
+msgid "Interval:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:102
+msgid "Timeout:"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:113
+msgid "Default icon restored."
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:133
+msgid "Disabled"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:140
+msgid "Add Link and Separator"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:147
+msgid "Add only Link"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:162
+msgid "Update icon"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:164
+msgid "Restore icon"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:166
+msgid "Default: "
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:168
+msgid "Current: "
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:176
+msgid "Default: 3000"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:184
+msgid "Default: 4"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:192
+msgid "Default: 50"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:200
+msgid "Default: 200"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:224
+msgid "Upload or Choose Your Icon File"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:225
+msgid "Insert Icon"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:262
+#, php-format
+msgid "WP Admin Bar Effect (wabe) Version: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:263
+msgid "Enable javascript to work plugin options!!!"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:279
+msgid "General options"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:280
+msgid "Advanced options"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:285
+msgid "Active link"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:288
+msgid "Decide if it shows a link in the sidebar to your site."
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:291
+msgid ""
+"Add Link and Separator decide if it shows a separator after link or Add only "
+"Link show link without separator"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:294
+msgid "Define target link"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:297
+msgid "Define target _blank or none. Default _blank"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:300
+msgid "Custom icon to link"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:303
+msgid ""
+"Add custom icon on the link, is stored in the folder uploads if not using "
+"from url. "
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:306
+msgid "The image can not be greater than 16 by 16 pixels"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:309
+msgid "Speed"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:312
+msgid "Speed ​​is the option to change the speed of effect once the hover."
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:319
+msgid "Sensitivity"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:322
+msgid ""
+"If the mouse travels fewer than this number of pixels between polling "
+"intervals, then the \"over\" function will be called. With the minimum "
+"sensitivity threshold of 1, the mouse must not move between polling "
+"intervals. With higher sensitivity thresholds you are more likely to receive "
+"a false positive."
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:325
+msgid "Interval"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:328
+msgid ""
+"The number of milliseconds hoverIntent waits between reading/comparing mouse "
+"coordinates. When the user's mouse first enters the element its coordinates "
+"are recorded. The soonest the \"over\" function can be called is after a "
+"single polling interval. Setting the polling interval higher will increase "
+"the delay before the first possible \"over\" call, but also increases the "
+"time to the next point of comparison."
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:331
+msgid "Timeout"
+msgstr ""
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:334
+msgid ""
+"A simple delay, in milliseconds, before the \"out\" function is called. If "
+"the user mouses back over the element before the timeout has expired the "
+"\"out\" function will not be called (nor will the \"over\" function be "
+"called). This is primarily to protect against sloppy/human mousing "
+"trajectories that temporarily (and unintentionally) take the user off of the "
+"target element... giving them time to return."
+msgstr ""
