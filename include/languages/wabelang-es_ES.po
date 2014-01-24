@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wabe\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-05-14 10:25+0100\n"
-"PO-Revision-Date: 2013-05-14 10:29+0100\n"
+"POT-Creation-Date: 2014-01-24 17:30+0100\n"
+"PO-Revision-Date: 2014-01-24 18:13+0100\n"
 "Last-Translator: 23r9i0 <23r9i0@gmail.com>\n"
 "Language-Team: 23r9i0\n"
 "Language: es_ES\n"
@@ -13,176 +13,127 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.6.3\n"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:81
-msgid "This plugin requires WordPress 3.5 or greater."
-msgstr "El plugin necesita WordPress 3.5 o posterior."
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:113
+msgid "Link:"
+msgstr "Enlace:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:87
-msgid "Options"
-msgstr "Opciones"
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:121
+msgid "Open in new tab or window:"
+msgstr "Abrir en<br>nueva pestaña o ventana:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:95
-msgid "Active link:"
-msgstr "Activar enlace:"
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:129
+msgid "Icon of the link:"
+msgstr "Icono del enlace:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:96
-msgid "Define target link:"
-msgstr "Definir target del enlace:"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:97
-msgid "Custom Icon to link:"
-msgstr "Icono personalizado para el enlace:"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:98
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:137
 msgid "Speed:"
 msgstr "Velocidad:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:99
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:145
 msgid "<strong>Advanced Settings</strong>"
 msgstr "<strong>Opciones avanzadas</strong>"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:100
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:152
 msgid "Sensitivity:"
 msgstr "Sensibilidad:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:101
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:160
 msgid "Interval:"
 msgstr "Intervalo:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:102
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:168
 msgid "Timeout:"
 msgstr "Tiempo de espera:"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:113
-msgid "Default icon restored."
-msgstr "Icono predeterminado restaurado."
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:133
-msgid "Disabled"
-msgstr "Deshabilitado"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:140
-msgid "Add Link and Separator"
-msgstr "Añadir enlace y separador"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:147
-msgid "Add only Link"
-msgstr "Añadir solo enlace"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:162
-msgid "Update icon"
-msgstr "Subir icono"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:164
-msgid "Restore icon"
-msgstr "Restablecer icono"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:166
-msgid "Default: "
-msgstr "Por defecto: "
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:168
-msgid "Current: "
-msgstr "Actual: "
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:176
-msgid "Default: 3000"
-msgstr "Por defecto: 3000"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:184
-msgid "Default: 4"
-msgstr "Por defecto: 4"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:192
-msgid "Default: 50"
-msgstr "Por defecto: 50"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:200
-msgid "Default: 200"
-msgstr "Por defecto: 200"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:224
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:219
 msgid "Upload or Choose Your Icon File"
 msgstr "Subir o seleccionar su archivo de icono"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:225
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:220
 msgid "Insert Icon"
 msgstr "Insertar icono"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:262
-#, php-format
-msgid "WP Admin Bar Effect (wabe) Version: %s"
-msgstr "WP Admin Bar Effect (wabe) Versión: %s"
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:233
+msgid "Options"
+msgstr "Opciones"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:263
-msgid "Enable javascript to work plugin options!!!"
-msgstr "Activar javascript para usar todas las opciones del plugin!!!"
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:252
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:258
+msgid "Default icon restored."
+msgstr "Icono predeterminado restaurado."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:279
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:255
+msgid "Undefined id of the url image."
+msgstr "Id de la url sin especificar."
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:297
+msgid "WP Admin Bar Effect - (wabe)"
+msgstr "WP Admin Bar Effect - (wabe)"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:310
 msgid "General options"
 msgstr "Opciones generales"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:280
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:311
 msgid "Advanced options"
 msgstr "Opciones avanzadas"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:285
-msgid "Active link"
-msgstr "Activar enlace"
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:315
+msgid "Link"
+msgstr "Enlace"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:288
-msgid "Decide if it shows a link in the sidebar to your site."
-msgstr "Decide si se muestra en la barra lateral un enlace hacia su sitio."
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:291
-msgid ""
-"Add Link and Separator decide if it shows a separator after link or Add only "
-"Link show link without separator"
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:316
+msgid "Decide if it shows a link in the admin sidebar to your site."
 msgstr ""
-"Añadir enlace y separador decide si quiere mostrar un separador despues del "
-"enlace o añadir solo enlace  sin separador"
+"Decide si se muestra en la barra lateral del administrador un enlace hacia "
+"su sitio."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:294
-msgid "Define target link"
-msgstr "Definir target del enlace"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:297
-msgid "Define target _blank or none. Default _blank"
-msgstr "Definir target _blank o no. Por defecto _blank"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:300
-msgid "Custom icon to link"
-msgstr "Icono personalizado para el enlace"
-
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:303
-msgid ""
-"Add custom icon on the link, is stored in the folder uploads if not using "
-"from url. "
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:317
+msgid "Add Link with Separator decide if it shows a separator after link."
 msgstr ""
-"Añade icono personalizado en el enlace. se guarda en la carpeta uploads sino "
-"usa desde url."
+"Añadir enlace con separador decide si quiere mostrar un separador despues "
+"del enlace."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:306
-msgid "The image can not be greater than 16 by 16 pixels"
-msgstr "La imagen no puede exceder de 16 por 16 pixeles"
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:318
+msgid "Open in new tab or window"
+msgstr "Abrir en nueva pestaña o ventana"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:309
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:319
+msgid "Insert with javascript target tag for open in new tab or window."
+msgstr ""
+"Inserta con javascript la etiqueta target para abrir en una nueva pestaña o "
+"ventana."
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:320
+msgid "Icon of the link"
+msgstr "Icono del enlace"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:321
+msgid "You can upload a image, enter a external url or use Dashicons."
+msgstr "Puede subir una imagen, introducir una url externa o usar Dashicons."
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:322
+msgid "The image can not be greater than 16x16 pixels"
+msgstr "La imagen no puede exceder de 16x16 pixeles"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:323
 msgid "Speed"
 msgstr "Velocidad"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:312
-msgid "Speed ​​is the option to change the speed of effect once the hover."
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:324
+msgid ""
+"Is the option to change the speed of the effect is activated once hovering."
 msgstr ""
-"La velocidad, es la opción para cambiar la velocidad del efecto una vez que "
-"se activa al pasar el ratón."
+"Es la opción para cambiar la velocidad del efecto una vez que se activa al "
+"pasar el ratón."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:319
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:328
 msgid "Sensitivity"
 msgstr "Sensibilidad"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:322
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:329
 msgid ""
 "If the mouse travels fewer than this number of pixels between polling "
 "intervals, then the \"over\" function will be called. With the minimum "
@@ -190,17 +141,17 @@ msgid ""
 "intervals. With higher sensitivity thresholds you are more likely to receive "
 "a false positive."
 msgstr ""
-"Si el ratón viaja menos de este número de píxeles entre los intervalos de "
-"sondeo, el \"sobre\" la función se llama. Con el umbral de sensibilidad "
-"mínima de 1, el ratón no se debe mover entre los intervalos de votación. Con "
-"los umbrales de sensibilidad más alto tienen más probabilidades de recibir "
-"un falso positivo"
+"Si el ratón se desplaza menos del número de pixeles entre los intervalos de "
+"comprobación, se llamará a la function \"over\". Con el mínimo de "
+"sensibilidad de entrada de 1, el ratón no debe moverse entre los intervalos "
+"de comprobación. Con una mayor sensibilidad tiene más posibilidad de recibir "
+"falsos positivos."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:325
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:330
 msgid "Interval"
 msgstr "Intervalo"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:328
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:331
 msgid ""
 "The number of milliseconds hoverIntent waits between reading/comparing mouse "
 "coordinates. When the user's mouse first enters the element its coordinates "
@@ -211,17 +162,16 @@ msgid ""
 msgstr ""
 "El número de milisegundos que hoverIntent espera entre la lectura/"
 "comparación de las coordenadas del ratón. Cuando el ratón del usuario entra "
-"por primera vez el elemento de sus coordenadas se registran. Lo más pronto "
-"que puede ser el \"sobre\" la función se llama después de un intervalo de "
-"sondeo única. Ajuste del intervalo de sondeo más alta aumentará la demora "
-"antes de la primera posible \"sobre\" llamar, pero también aumenta el tiempo "
-"hasta el siguiente punto de comparación intervalo."
+"por primera vez en el elemento sus coordenadas se registran. Tan pronto como "
+"sea posible se llama a la funcion \"over\" despues de un solo intervalo. "
+"Aumentar el intervalo aumenta el retraso de la primera posible llamada a "
+"\"over \" pero también aumenta el tiempo entre comparación."
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:331
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:332
 msgid "Timeout"
 msgstr "Tiempo de espera"
 
-#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:334
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:333
 msgid ""
 "A simple delay, in milliseconds, before the \"out\" function is called. If "
 "the user mouses back over the element before the timeout has expired the "
@@ -230,13 +180,91 @@ msgid ""
 "trajectories that temporarily (and unintentionally) take the user off of the "
 "target element... giving them time to return."
 msgstr ""
-"Un simple retraso, en milisegundos, antes de que el \"fuera\" la función se "
-"llama. Si el usuario pasa el ratón por encima del elemento antes de que el "
-"tiempo de espera ha expirado el \"fuera\" la función no será llamada (ni el "
-"\"sobre\" la función se llama). Esto se debe principalmente a la protección "
-"contra las trayectorias pasar el ratón por descuidado/humanos que "
-"temporalmente (y no) llevan al usuario fuera del elemento de destino ...  "
-"Dándoles tiempo para volver."
+"Un simple retraso, en milisegundos, antes de la llamada a la función \"out"
+"\". Si el usuario pasa el ratón por encima del elemento antes de que el "
+"tiempo de espera haya expirado la función \"out\" no se llamará (ni la "
+"función \"over\"). Esto se debe principalmente a la protección contra las "
+"trayectorias al pasar el ratón por descuidado/humanos que temporalmente (y "
+"sin querer) llevan al usuario fuera del elemento de destino ...  dándoles "
+"tiempo para volver."
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:356
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:363
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:370
+msgid "Enabled with Separator"
+msgstr "Habilitado con separador"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:388
+msgid "Update icon"
+msgstr "Subir icono"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:390
+msgid "Restore icon"
+msgstr "Restablecer icono"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:392
+msgid "Default: "
+msgstr "Por defecto: "
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:394
+msgid "Current: "
+msgstr "Actual: "
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:408
+msgid "Default: 3000"
+msgstr "Por defecto: 3000"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:417
+msgid "Default: 4"
+msgstr "Por defecto: 4"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:426
+msgid "Default: 50"
+msgstr "Por defecto: 50"
+
+#: D:\xampp\htdocs\wp\wp-content\plugins\wp-admin-bar-effect/wp-admin-bar-effect.php:435
+msgid "Default: 200"
+msgstr "Por defecto: 200"
+
+#~ msgid "Define target:"
+#~ msgstr "Definir target:"
+
+#~ msgid "Define target"
+#~ msgstr "Definir target"
+
+#~ msgid "Define target _blank or none. Default: <code>_blank</code>."
+#~ msgstr "Definir target _blank o no. Por defecto:  <code>_blank</code>."
+
+#~ msgid ""
+#~ "Add icon on the link, is stored in the folder uploads if not using "
+#~ "external url. "
+#~ msgstr ""
+#~ "Añade icono en el enlace. se guarda en la carpeta uploads sino usa una "
+#~ "direccion externa."
+
+#~ msgid "Active link:"
+#~ msgstr "Activar enlace:"
+
+#~ msgid "Active link"
+#~ msgstr "Activar enlace"
+
+#~ msgid "Custom icon to link"
+#~ msgstr "Icono personalizado para el enlace"
+
+#~ msgid "Add only Link"
+#~ msgstr "Añadir solo enlace"
+
+#~ msgid "This plugin requires WordPress 3.5 or greater."
+#~ msgstr "El plugin necesita WordPress 3.5 o posterior."
+
+#~ msgid "Enable javascript to work plugin options!!!"
+#~ msgstr "Activar javascript para usar todas las opciones del plugin!!!"
 
 #~ msgid "Default options restored."
 #~ msgstr "Opciones predeterminadas restauradas."
