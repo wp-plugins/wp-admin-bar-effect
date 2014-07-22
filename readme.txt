@@ -1,5 +1,5 @@
-﻿=== WP Admin Bar Effect ===
-Contributors: 23r9i0 
+=== WP Admin Bar Effect ===
+Contributors: 23r9i0
 Donate link:
 Tags: Admin, Admin bar, Effect, Customize menu, menu, Toolbar
 Requires at least: 3.8

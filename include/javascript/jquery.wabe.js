@@ -1,5 +1,5 @@
-;(function($){	
-	$.fn.wp_admin_bar_effect = function(options){	
+;(function($){
+	$.fn.wp_admin_bar_effect = function(options){
 		var
 		defaults = {speed:3000,sensitivity:4,interval:50,timeout:200},
 		options = $.extend({},defaults,options),
@@ -29,7 +29,7 @@
 					over:wabe.toggle,
 					out:wabe.toggle
 				});
-				
+
 				if('visible' == quicklinks.css('visibility'))
 					wabe.close();
 			},
@@ -40,15 +40,15 @@
 			},
 			init: function(){
 				return ('absolute' == $('#adminmenuwrap').css('position')) ? wabe.off() : wabe.on();
-			}	
+			}
 		};
-		
+
 		return this.each(function(){
 			wabe.init();
 			$(window).bind('resize', wabe.init);
 		});
 	};
-	
+
 	$.fn.wabe_check = function(){
 		var
 		html = $(this),
@@ -64,13 +64,13 @@
 				return ($('#wabe-disabled', html).is(':checked')) ? check.close() : check.open();
 			}
 		};
-		
+
 		return this.each(function(){
 			check.init();
 			$('input.wabe-radio', html).bind('change', check.init);
 		});
 	};
-	
+
 })(jQuery);
 
 jQuery(document).ready(function($){
@@ -82,7 +82,7 @@ jQuery(document).ready(function($){
 	});
 	if('1' === wabe.target_link)
 		$('#wabe a').attr('target', '_blank');
-		
+
 	$('div.wabe-settings').wabe_check();
 
 	$(document.body).on('click', '#submit-img', function(e){

@@ -337,10 +337,10 @@ class wabe {
 		$image = $this->wabe_options['wabe_icon_link'];
 		if ( '' === $image )
 			return false;
-		
+
 		if ( ! $echo )
 			return $image;
-		
+
 		if ( false !== strpos( $image, 'dashicons-' ) )
 			return '<span class="dashicons ' . $image . '"></span>';
 		else
