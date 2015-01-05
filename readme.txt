@@ -1,10 +1,10 @@
-=== WP Admin Bar Effect ===
+﻿=== WP Admin Bar Effect ===
 Contributors: 23r9i0
 Donate link:
 Tags: Admin, Admin bar, Effect, Customize menu, menu, Toolbar
 Requires at least: 3.8
-Tested up to: 3.9
-Stable tag: 2.5.1.1
+Tested up to: 4.1
+Stable tag: 2.5.2
 License: GPL/MIT
 
 Add effect to admin bar for show & hide with mouse hover
@@ -26,6 +26,8 @@ Aparte puede controlar la velocidad, sensibilidad para activar el efecto.
 
 
 == Changelog ==
+= 2.5.2 =
+* fix error quicklinks in 4.1
 = 2.5.1.1 =
 * fix error name function
 = 2.5.1 =

@@ -13,9 +13,8 @@
 				wpwrap.stop().animate({'margin-top':'0','padding-bottom':'0'},options.speed);
 			},
 			close: function(){
-				wpadminbar.stop().animate({'height':'4px'},options.speed,function(){
-					quicklinks.css('visibility','hidden');
-				});
+				quicklinks.css('visibility','hidden');
+				wpadminbar.stop().animate({'height':'4px'},options.speed);
 				wpwrap.stop().animate({'margin-top':'-32px','padding-bottom':'32px'},options.speed);
 			},
 			toggle: function(){
@@ -35,7 +34,7 @@
 			},
 			off: function(){
 				quicklinks.css('visibility','visible');
-				wpadminbar.css({'height':'46px'}).unbind();
+				wpadminbar.css('height','46px').unbind();
 				wpwrap.css({'margin-top':'0','padding-bottom':'0'});
 			},
 			init: function(){

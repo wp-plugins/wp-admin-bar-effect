@@ -1,40 +1,41 @@
 <?php
-/*
-Plugin Name: WP Admin Bar Effect (wabe)
-Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-effect/
-Description: Add effect slideDown to desktop top bar
-Author: Sergio P.A. ( 23r9i0 )
-Version: 2.5.1.1
-Author URI: http://dsergio.com/
-*/
-/*  Copyright 2014  Sergio Prieto Alvarez  ( email : info@dsergio.com )
-
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    ( at your option ) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General License for more details.
-
-    You should have received a copy of the GNU General License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
-*/
+/**
+ * Plugin Name: WP Admin Bar Effect (wabe)
+ * Plugin URI: http://wordpress.org/extend/plugins/wp-admin-bar-effect/
+ * Description: Add effect slideDown to desktop top bar
+ * Version: 2.5.2
+ * Author: Sergio P.A. ( 23r9i0 )
+ * Author URI: http://dsergio.com/
+ * License: GPL2
+ *
+ *
+ * Copyright 2015  Sergio Prieto Alvarez  ( email : info@dsergio.com )
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License, version 2, as
+ * published by the Free Software Foundation.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-add_action( 'plugins_loaded', array( 'wabe', 'get_instance' ) );
-register_activation_hook( __FILE__, array( 'wabe', 'activation' ) );
-register_deactivation_hook( __FILE__, array( 'wabe', 'deactivation' ) );
+add_action( 'plugins_loaded', array( 'WP_Admin_Bar_Effect', 'get_instance' ), 10 );
+register_activation_hook( __FILE__, array( 'WP_Admin_Bar_Effect', 'activation' ) );
+register_deactivation_hook( __FILE__, array( 'WP_Admin_Bar_Effect', 'deactivation' ) );
 
-class wabe {
+class WP_Admin_Bar_Effect {
 
 	private static $instance = null;
 
-	private $wabe_version = '2.5.1.1';
+	private $wabe_version = '2.5.2';
 
 	private $wabe_options = array();
 
@@ -208,9 +209,6 @@ class wabe {
 
 		$dev = ( defined( 'DSWPDEV' ) && ( false !== DSWPDEV ) ) ? '' : '.min';
 		wp_register_script( 'wabe-script', plugins_url( 'include/javascript/jquery.wabe' . $dev . '.js', __FILE__ ), array( 'jquery', 'hoverIntent' ), $this->wabe_version );
-
-		wp_enqueue_script( 'wabe-script' );
-
 		wp_localize_script( 'wabe-script', 'wabe', array(
 			'speed' => $this->wabe_options['wabe_speed'],
 			'sensitivity' => $this->wabe_options['wabe_sensitivity'],
@@ -220,6 +218,7 @@ class wabe {
 			'media_button' => __( 'Insert Icon', 'wabelang' ),
 			'target_link' => $this->wabe_options['wabe_target_link']
 		) );
+		wp_enqueue_script( 'wabe-script' );
 
 		wp_register_style( 'wabe-style', plugins_url( 'include/css/wabe' . $dev . '.css', __FILE__ ), false, $this->wabe_version );
 		wp_enqueue_style( 'wabe-style' );
@@ -437,4 +436,3 @@ class wabe {
 <?php
 	}
 }
-?>
